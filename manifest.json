@@ -1,7 +1,7 @@
 {
 	"name": "Switcheroo-nscape",
 	"version": "1.0",
-	"description": "Redirects old RuneScape wiki pages to new RuneScape wiki pages",
+	"description": "Redirects old RuneScape 3 wiki pages to new RuneScape 3 wiki pages",
 	"manifest_version": 2,
 	"browser_action": {
 		"default_title": "Switcheroo-nscape"
