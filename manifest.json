@@ -1,20 +1,20 @@
 {
-	"name": "Switcheroo-nscape",
-	"version": "1.0",
-	"description": "Redirects old RuneScape wiki pages to new RuneScape wiki pages",
-	"manifest_version": 2,
-	"browser_action": {
-		"default_title": "Switcheroo-nscape"
-	},
+  "name": "Switcheroo-nscape",
+  "version": "1.0",
+  "description": "Redirects old RuneScape wiki pages to new RuneScape wiki pages",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Switcheroo-nscape"
+  },
   "background": {
     "scripts": ["background.js"],
     "persistent": true
   },
-	"permissions": [
+  "permissions": [
     "tabs",
     "webRequest",
     "webRequestBlocking",
-		"*://runescape.fandom.com/wiki/*"
-	],
-	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    "*://runescape.fandom.com/wiki/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
